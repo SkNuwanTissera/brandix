@@ -1,0 +1,26 @@
+{
+     "name": "Hello World",
+     "description": "Atlassian Connect add-on",
+     "key": "com.spring.brandix",
+     "baseUrl": "https://921a1378.ngrok.io",
+     "vendor": {
+         "name": "Example, Inc.",
+         "url": "http://example.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/new/hello",
+                 "key": "new",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "BQI"
+                 }
+             }
+         ]
+     }
+ }
